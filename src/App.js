@@ -63,6 +63,7 @@ class App extends Component {
             value={this.state.noteText}
             onChange={noteText => this.updateNoteText(noteText)}
             onKeyPress={this.handleKeyPress.bind(this)}
+            placeholder="Add a task"
             />
       </div>
     )
